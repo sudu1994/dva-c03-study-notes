@@ -12,7 +12,7 @@
 |---|---|
 | <b>Deco</b>uple <b>prod</b>ucer <b>fr</b>om <b>sl</b>ow <b>cons</b>umer | **Simple Queue Service (SQS)** |
 | <b>O</b>ne <b>eve</b>nt, <b>ma</b>ny <b>indepe</b>ndent <b>consu</b>mers | **Simple Notification Service (SNS) → SQS fan-out** (<b>o</b>r <b>EventB</b>ridge <b>ru</b>le <b>wi</b>th <b>mult</b>iple <b>targ</b>ets) |
-| <b>Rou</b>te <b>eve</b>nts <b>b</b>y <b>cont</b>ent, <b>Soft</b>ware <b>a</b>s <b>a</b> <b>Serv</b>ice (<b>Sa</b>aS) <b>eve</b>nts | **EventBridge** |
+| <b>Rou</b>te <b>eve</b>nts <b>b</b>y <b>cont</b>ent, <b>Soft</b>ware <b>a</b>s <b>a</b> <b>Serv</b>ice (SaaS) <b>eve</b>nts | **EventBridge** |
 | <b>Orde</b>red <b>p</b>er <b>ent</b>ity, <b>exac</b>tly-<b>on</b>ce | **SQS First-In, First-Out [FIFO]** (`MessageGroupId`) |
 | <b>Re</b>al-<b>ti</b>me <b>orde</b>red <b>str</b>eam, <b>rep</b>lay, <b>ma</b>ny <b>consu</b>mers | **Kinesis Data Streams** |
 | <b>Mul</b>ti-<b>st</b>ep <b>work</b>flow <b>wi</b>th <b>retr</b>ies <b>a</b>nd <b>appr</b>oval | **Step Functions** (<b>ta</b>sk <b>tok</b>en) |
@@ -76,7 +76,7 @@
 | KMS <b>throt</b>tling | **Data key caching**, S3 <b>Buc</b>ket <b>Ke</b>ys |
 | <b>Bi</b>nd <b>ciphe</b>rtext <b>t</b>o <b>ten</b>ant | **Encryption context** |
 | AWS <b>mu</b>st <b>nev</b>er <b>s</b>ee <b>plain</b>text | **[Client-side](00-developer-basics.md#client-side-vs-server-side-encryption) encryption** |
-| <b>Inte</b>rnal <b>mut</b>ual TLS (<b>mT</b>LS) <b>cer</b>ts | **AWS Private Certificate Authority (CA)** |
+| <b>Inte</b>rnal <b>mut</b>ual TLS (mTLS) <b>cer</b>ts | **AWS Private Certificate Authority (CA)** |
 | <b>Loc</b>al <b>Hyper</b>text <b>Tran</b>sfer <b>Prot</b>ocol <b>Sec</b>ure (HTTPS) <b>d</b>ev <b>ce</b>rt | **Self-signed (OpenSSL)** |
 | <b>Avo</b>id <b>Sec</b>ure <b>She</b>ll (SSH) <b>k</b>ey <b>distri</b>bution | **Session Manager / EC2 Instance Connect** |
 | [<b>Perso</b>nally <b>Identi</b>fiable <b>Inform</b>ation [PII]](00-developer-basics.md#pii-and-phi-masking-and-redaction) <b>i</b>n <b>lo</b>gs | **CloudWatch Logs data protection** (<b>ma</b>sk) |
@@ -187,7 +187,7 @@
 | <b>Lam</b>bda <b>concur</b>rency | 1,000 <b>defa</b>ult <b>p</b>er <b>Reg</b>ion; +1,000 <b>p</b>er 10 <b>s</b> <b>p</b>er <b>func</b>tion |
 | <b>Lam</b>bda <b>asy</b>nc <b>retr</b>ies / <b>eve</b>nt <b>a</b>ge | 2 / <b>u</b>p <b>t</b>o 6 <b>h</b> |
 | API <b>Gate</b>way | 29 <b>s</b>, 10 MB, 10,000 <b>r</b>ps (5,000 <b>bur</b>st), <b>cac</b>he TTL <b>defa</b>ult 300 <b>s</b> <b>m</b>ax 3,600 |
-| SQS | 1 <b>M</b>iB (<b>form</b>erly 256 KB), <b>visib</b>ility 30 <b>s</b> <b>defa</b>ult / 12 <b>h</b> <b>m</b>ax, <b>reten</b>tion 4 <b>da</b>ys / 14 <b>m</b>ax, <b>lo</b>ng <b>po</b>ll 20 <b>s</b>, <b>del</b>ay 15 <b>m</b>in, <b>bat</b>ch 10 |
+| SQS | 1 MiB (<b>form</b>erly 256 KB), <b>visib</b>ility 30 <b>s</b> <b>defa</b>ult / 12 <b>h</b> <b>m</b>ax, <b>reten</b>tion 4 <b>da</b>ys / 14 <b>m</b>ax, <b>lo</b>ng <b>po</b>ll 20 <b>s</b>, <b>del</b>ay 15 <b>m</b>in, <b>bat</b>ch 10 |
 | SQS FIFO | 300 <b>Transa</b>ctions <b>P</b>er <b>Sec</b>ond [TPS] (3,000 <b>batc</b>hed); <b>ded</b>up <b>win</b>dow 5 <b>m</b>in |
 | SNS | <b>mess</b>age 256 KB; <b>Publis</b>hBatch 10 |
 | <b>EventB</b>ridge <b>PutEv</b>ents | 10 <b>entr</b>ies <b>p</b>er <b>ca</b>ll |

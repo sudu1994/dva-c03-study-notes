@@ -98,7 +98,7 @@
 | **OAC** | <b>Ori</b>gin <b>Acc</b>ess <b>Cont</b>rol |
 | **OAuth** | <b>Op</b>en <b>Authori</b>zation |
 | **OCSP** | <b>Onl</b>ine <b>Certif</b>icate <b>Sta</b>tus <b>Prot</b>ocol |
-| **OIDC** | <b>Ope</b>nID <b>Conn</b>ect |
+| **OIDC** | OpenID <b>Conn</b>ect |
 | **ORC** | <b>Optim</b>ized <b>R</b>ow <b>Colu</b>mnar |
 | **OS** | <b>Opera</b>ting <b>Sys</b>tem |
 | **p99** | 99th <b>perce</b>ntile |

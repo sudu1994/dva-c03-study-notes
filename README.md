@@ -37,4 +37,4 @@
 - 65 <b>quest</b>ions (50 <b>sco</b>red, 15 <b>unsc</b>ored), 130 <b>minu</b>tes, <b>pass</b>ing <b>sco</b>re 720 / 1000; <b>mult</b>iple <b>cho</b>ice <b>a</b>nd <b>mult</b>iple <b>resp</b>onse.
 - <b>Offi</b>cial <b>gui</b>de: https://docs.aws.amazon.com/aws-certification/latest/developer-associate-03/developer-associate-03.html
 
-> <b>Numb</b>ers <b>a</b>nd <b>quo</b>tas <b>cha</b>nge <b>ov</b>er <b>ti</b>me. <b>Whe</b>re AWS <b>rai</b>sed <b>a</b> <b>lim</b>it <b>rece</b>ntly, <b>bo</b>th <b>val</b>ues <b>a</b>re <b>giv</b>en. <b>New</b>er AI <b>serv</b>ices <b>a</b>re <b>descr</b>ibed <b>on</b>ly <b>a</b>s <b>f</b>ar <b>a</b>s <b>AWS</b>'s <b>offi</b>cial <b>pag</b>es <b>desc</b>ribe <b>th</b>em.
+> <b>Numb</b>ers <b>a</b>nd <b>quo</b>tas <b>cha</b>nge <b>ov</b>er <b>ti</b>me. <b>Whe</b>re AWS <b>rai</b>sed <b>a</b> <b>lim</b>it <b>rece</b>ntly, <b>bo</b>th <b>val</b>ues <b>a</b>re <b>giv</b>en. <b>New</b>er AI <b>serv</b>ices <b>a</b>re <b>descr</b>ibed <b>on</b>ly <b>a</b>s <b>f</b>ar <b>a</b>s AWS's <b>offi</b>cial <b>pag</b>es <b>desc</b>ribe <b>th</b>em.

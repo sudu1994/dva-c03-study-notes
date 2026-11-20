@@ -92,7 +92,7 @@ APIs <b>ret</b>urn <b>lar</b>ge <b>res</b>ult <b>se</b>ts <b>i</b>n **pages** <b
 **Time to live**: <b>autom</b>atic <b>exp</b>iry <b>o</b>f <b>da</b>ta (<b>Dyna</b>moDB TTL, <b>cac</b>he TTL). **Lifecycle policies** <b>mo</b>ve <b>o</b>r <b>del</b>ete <b>da</b>ta <b>a</b>s <b>i</b>t <b>ag</b>es (S3 <b>Lifec</b>ycle, <b>Cloud</b>Watch <b>Lo</b>gs <b>reten</b>tion).
 
 ### Streaming data
-<b>Conti</b>nuous <b>flo</b>ws <b>o</b>f <b>reco</b>rds (<b>cli</b>cks, <b>I</b>oT) <b>proce</b>ssed <b>i</b>n <b>ord</b>er <b>p</b>er <b>k</b>ey, <b>wi</b>th <b>reten</b>tion <b>s</b>o <b>consu</b>mers <b>c</b>an <b>rep</b>lay (<b>Kine</b>sis <b>Da</b>ta <b>Stre</b>ams, <b>Dyna</b>moDB <b>Stre</b>ams, <b>Kaf</b>ka).
+<b>Conti</b>nuous <b>flo</b>ws <b>o</b>f <b>reco</b>rds (<b>cli</b>cks, IoT) <b>proce</b>ssed <b>i</b>n <b>ord</b>er <b>p</b>er <b>k</b>ey, <b>wi</b>th <b>reten</b>tion <b>s</b>o <b>consu</b>mers <b>c</b>an <b>rep</b>lay (<b>Kine</b>sis <b>Da</b>ta <b>Stre</b>ams, <b>Dyna</b>moDB <b>Stre</b>ams, <b>Kaf</b>ka).
 
 ---
 
@@ -204,7 +204,7 @@ p50/p90/p99 <b>late</b>ncy <b>sh</b>ow <b>typi</b>cal <b>a</b>nd <b>wor</b>st-<b
 <b>A</b>n <b>att</b>ack <b>whe</b>re <b>inp</b>ut <b>te</b>xt (<b>fr</b>om <b>a</b> <b>us</b>er <b>o</b>r <b>a</b> <b>retri</b>eved <b>docu</b>ment) <b>tri</b>es <b>t</b>o <b>over</b>ride <b>t</b>he <b>mode</b>l's <b>instru</b>ctions ("<b>ign</b>ore <b>prev</b>ious <b>instru</b>ctions <b>a</b>nd …"). <b>Miti</b>gate <b>wi</b>th <b>guardr</b>ails' <b>pro</b>mpt <b>att</b>ack <b>filt</b>ers, <b>separ</b>ating <b>instru</b>ctions <b>fr</b>om <b>da</b>ta, <b>lea</b>st-<b>privi</b>lege <b>too</b>ls <b>a</b>nd <b>hum</b>an <b>appr</b>oval.
 
 ### AI-assisted development
-<b>Usi</b>ng AI <b>too</b>ls <b>t</b>o <b>gene</b>rate <b>co</b>de <b>fr</b>om <b>specifi</b>cations (**spec-driven development**), <b>comp</b>lete <b>co</b>de, <b>rev</b>iew <b>i</b>t, <b>sugg</b>est <b>refac</b>tors, <b>sc</b>an <b>f</b>or <b>secu</b>rity <b>iss</b>ues, <b>wri</b>te <b>tes</b>ts, <b>anal</b>yze <b>err</b>ors <b>a</b>nd <b>lo</b>gs. **Kiro** <b>i</b>s <b>AWS</b>'s <b>agen</b>tic <b>develo</b>pment <b>enviro</b>nment <b>f</b>or <b>th</b>is.
+<b>Usi</b>ng AI <b>too</b>ls <b>t</b>o <b>gene</b>rate <b>co</b>de <b>fr</b>om <b>specifi</b>cations (**spec-driven development**), <b>comp</b>lete <b>co</b>de, <b>rev</b>iew <b>i</b>t, <b>sugg</b>est <b>refac</b>tors, <b>sc</b>an <b>f</b>or <b>secu</b>rity <b>iss</b>ues, <b>wri</b>te <b>tes</b>ts, <b>anal</b>yze <b>err</b>ors <b>a</b>nd <b>lo</b>gs. **Kiro** <b>i</b>s AWS's <b>agen</b>tic <b>develo</b>pment <b>enviro</b>nment <b>f</b>or <b>th</b>is.
 
 ### MCP
 **Model Context Protocol**: <b>op</b>en <b>stan</b>dard <b>f</b>or <b>conne</b>cting AI <b>age</b>nts/<b>assis</b>tants <b>t</b>o <b>too</b>ls <b>a</b>nd <b>da</b>ta <b>sour</b>ces.
